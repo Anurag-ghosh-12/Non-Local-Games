@@ -8,10 +8,10 @@ classical_success_prob = [1, 0.9975, 0.99, 0.9775, 0.96, 0.9375, 0.91, 0.8775, 0
 # Create plot
 plt.figure(figsize=(10, 6))
 plt.plot(probability_values, quantum_success_prob, label="Maximum Quantum Success Probability", color="blue", marker='o')
-plt.plot(probability_values, classical_success_prob, label="Maximum Classical Success Probability", color="red", marker='s')
+plt.plot(probability_values, classical_success_prob, label="Maximum Classical Success Probability",linestyle='--', color="red", marker='s')
 
 # Adding titles and labels
-plt.title("Probability vs Maximum Classical and Quantum Success Probability", fontsize=14)
+plt.title("9 Successful Outcomes (3+3+2+1)", fontsize=14)
 plt.xlabel("Probability Value", fontsize=12)
 plt.ylabel("Success Probability", fontsize=12)
 plt.legend()

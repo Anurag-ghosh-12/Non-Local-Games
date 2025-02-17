@@ -11,7 +11,7 @@ plt.plot(p_values, quantum_success, label="Quantum Success Probability", marker=
 plt.plot(p_values, classical_success, label="Classical Success Probability", marker='s', linestyle='--', color='red')
 
 # Labels and Customization
-plt.title("Quantum vs Classical Success Probabilities", fontsize=14)
+plt.title("8 successful outcomes (2+2+2+2)", fontsize=14)
 plt.xlabel("Probability Value", fontsize=12)
 plt.ylabel("Success Probability", fontsize=12)
 plt.legend()
