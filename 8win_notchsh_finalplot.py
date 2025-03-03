@@ -14,7 +14,7 @@ plt.plot(p_values, classical_win_prob, marker='s', linestyle='--', color='r', la
 # Labels and title
 plt.xlabel("p value")
 plt.ylabel("Win Probability")
-plt.title("Probability Value vs Maximum Classical & Quantum Success Probability in 8-win Not CHSH Game")
+plt.title("8 Successful Outcomes (3+2+2+1)")
 plt.legend()
 plt.grid(True)
 

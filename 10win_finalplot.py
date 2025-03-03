@@ -19,7 +19,7 @@ plt.plot(probability_values, classical_success, marker='s', linestyle='--', colo
 # Labels and Title
 plt.xlabel('Probability Value')
 plt.ylabel('Success Probability')
-plt.title('Quantum vs Classical Success Probability')
+plt.title('10 Successful Outcomes (3+3+3+1)')
 plt.legend()
 plt.grid(True)
 
