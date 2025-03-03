@@ -17,8 +17,8 @@ def s9(p): return 1-p ** 2
 def s10(p): return 1-p
 def s11(p): return 2*p**2-2*p+1
 def s12(p): return p**2-p+1
-def s13(p): return 1-p
-def s14(p): return 1+p**2-2*p
+def s13(p): return 1+p**2-2*p
+def s14(p): return 1-p
 def s15(p): return 2*p - p**2
 
 # Vectorize each function

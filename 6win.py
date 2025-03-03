@@ -14,8 +14,8 @@ def s6(p): return 2 * p ** 2 - 2 * p + 1
 def s7(p): return p * (1 - p)
 def s8(p): return 2* p ** 2 + 1 - 2 * p
 def s9(p): return p ** 2
-def s10(p): return 2*p- 2* p ** 2
-def s11(p): return  p ** 2
+def s10(p): return p ** 2
+def s11(p): return 2*p- 2* p ** 2  
 def s12(p): return p** 2
 def s13(p): return p
 def s14(p): return p

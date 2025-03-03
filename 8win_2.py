@@ -9,20 +9,20 @@ import pandas as pd
 #     "0y", "1y", "0y'", "1y'"
 # Define the probability expressions for 16 strategies
 def s0(p): return p**2-p+1
-def s1(p): return p
-def s2(p): return 0
+def s1(p): return p- p**2
+def s2(p): return p**2
 def s3(p): return p**2-p+1
 def s4(p): return 2*p**2-2*p+1
-def s5(p): return p-p**2
-def s6(p): return p
+def s5(p): return p
+def s6(p): return p-p**2
 def s7(p): return p**2+1-p
 def s8(p): return p
-def s9(p): return 2*p**2-2*p+1
-def s10(p): return 1+p**2-2*p
+def s9(p): return p**2-2*p+1
+def s10(p): return 2*p**2-2*p+1
 def s11(p): return  2*p-p**2
 def s12(p): return p**2
-def s13(p): return 1-p
-def s14(p): return 1
+def s13(p): return p**2-p+1
+def s14(p): return 1-p**2
 def s15(p): return p**2    
 
 
