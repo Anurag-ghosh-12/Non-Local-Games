@@ -38,7 +38,7 @@ strategy_names = [
 ]
 
 # Generate p values from 0 to 1 with increments of 0.05
-p_values = np.arange(0, 1.05, 0.05)
+p_values = np.arange(0, 1.05, 0.02)
 
 # Compute strategy values
 strategy_values = {name: strategy(p_values) for name, strategy in zip(strategy_names, strategies)}
